@@ -1,0 +1,30 @@
+# Core dependencies
+streamlit>=1.28.0
+pillow>=10.0.0
+numpy>=1.24.0
+pandas>=2.0.0
+
+# HuggingFace dependencies
+transformers>=4.35.0
+torch>=2.0.0
+torchvision>=0.15.0  # Qwen2.5-VL ve Qwen3-VL için gerekli
+accelerate>=0.24.0
+huggingface_hub>=0.20.0
+
+# Ollama dependencies
+requests>=2.31.0
+
+# PaddleOCR dependencies (optional - uncomment to use)
+# paddleocr>=2.7.0
+# paddlepaddle>=3.0.0
+# Kurulum: pip install paddlepaddle paddleocr
+
+# Image processing
+opencv-python>=4.8.0
+
+# PDF processing
+pdf2image>=1.16.3
+PyMuPDF>=1.23.0  # Alternatif/yedek PDF işleyici
+
+# Utilities
+python-dotenv>=1.0.0
